@@ -72,7 +72,6 @@ body {
 nav a {
 	color: gray;
 	text-decoration: none;
-	width: 6%;
 }
 
 .nav_line {
@@ -124,12 +123,14 @@ h6 a {
 
 .above_image {
 	display: flex;
+	flex-flow: row nowrap;
 	justify-content: space-between;
 	margin: 3% auto;
 }
 
 .below_image {
 	display: flex;
+	flex-flow: row nowrap;
 	justify-content: space-between;
 	margin: 3% auto;
 }
@@ -167,4 +168,65 @@ h6 a {
 .copyright {
 	text-align: center;
 	margin: auto auto 5% auto;
+}
+
+.services-header-img {
+	width: 100%;
+}
+
+.service-summary h3 {
+	font-size: 200%;
+}
+
+.service-summary {
+	margin: 5% auto;	
+}
+
+.service-rows {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	margin: 3% auto;
+}
+
+.service-box {
+	width: 40%;
+	background: #F3ECEB;
+	padding: 2%;
+	border: 1px solid black;
+}
+
+.learn-more {
+	background: white;
+	margin: 5%;
+	display: block;
+	width: 30%;
+	border: 1px solid black;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 3% 4%;
+	font-size: 75%;
+	text-align: center;
+}
+
+.facts {
+	width: 40%;
+}
+
+.services-info-img {
+	width: 40%;
+}
+
+.section3 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	margin: 3% auto;
+}
+
+ul {
+	list-style-type: square;
+	display: block;
+	margin: 4%;
+
 }
